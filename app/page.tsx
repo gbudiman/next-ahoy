@@ -41,7 +41,7 @@ export default function Home() {
 
       <div className='text-center'>
         <a className='cursor-pointer'>Click Me!</a>
-        <div>Then observe DevTools' Network Tab :: Other</div>
+        <div>Then observe DevTools :: Network Tab :: Other</div>
       </div>
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
