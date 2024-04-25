@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import AnalyticsLoader from "@/components/AnalyticsLoader";
 import { Suspense } from "react";
+import ClickTrackingLoader from "@/components/ClickTrackingLoader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         <Suspense>
-          <AnalyticsLoader />
+          <ClickTrackingLoader />
         </Suspense>
       </body>
     </html>
