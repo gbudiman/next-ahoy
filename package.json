@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "ahoy.js": "^0.4.3",
-    "next": "=14.1.1",
+    "next": "14.3.0-canary.26",
     "react": "^18",
     "react-dom": "^18"
   },
